@@ -12,25 +12,14 @@ ul {
 }
 
 /*header*/
-.header-section {
-  box-sizing: inherit;
-}
-
 .logo {
-  width: 115px;
-  height: 24px;
-  display: inline-flex;
-  align-items: center;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.web {
   color: #4d5ae5;
 }
 
@@ -49,73 +38,61 @@ ul {
   color: #404bbf;
 }
 
-address a {
+.mail-to,
+.tel-to {
   text-decoration: none;
   font-style: normal;
   color: inherit;
 }
 
-.mail:hover,
-.mail:focus {
+.mail-to:hover,
+.mail-to:focus {
   color: #404bbf;
 }
 
-.tel:hover,
-.tel:focus {
+.tel-to:hover,
+.tel-to:focus {
   color: #404bbf;
 }
 
 /*Hero Section*/
 .main-section {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 .main-header {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   text-align: center;
-}
-
-.service {
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: #fff;
 }
 
 .btn {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  letter-spacing: 0.04em;
   background: #4d5ae5;
   white-space: nowrap;
   cursor: pointer;
   border: 0;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background: #404bbf;
 }
 
 /* Features Section */
-.features {
-  display: none;
-}
-
 .features-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -127,15 +104,22 @@ address a {
 .team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+
+.team-ul {
+  background-color: #ffffff;
 }
 
 .person {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -145,14 +129,12 @@ address a {
 }
 
 /* Portfolio Section */
-.portfolio-section {
-  box-sizing: inherit;
-}
-
 .portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -161,38 +143,27 @@ address a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 /* Bottom Section */
 .bottom-section {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 
 .botom-logo {
-  width: 115px;
-  height: 24px;
-  display: inline-flex;
-  align-items: center;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.bottom-web {
   color: #4d5ae5;
 }
 
-.bottom-studio {
-  color: #f4f4fd;
-}
-
+.bottom-studio,
 .bottom-description {
   color: #f4f4fd;
 }
