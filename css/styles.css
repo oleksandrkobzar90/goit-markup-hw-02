@@ -41,7 +41,10 @@ ul {
 address {
   text-decoration: none;
   font-style: normal;
-  color: inherit;
+}
+
+.mail-tel {
+  color: #434455;
 }
 
 .mail-tel:hover,
