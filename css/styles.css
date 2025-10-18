@@ -38,7 +38,7 @@ ul {
   color: #404bbf;
 }
 
-address * {
+address {
   text-decoration: none;
   font-style: normal;
   color: inherit;
