@@ -38,20 +38,14 @@ ul {
   color: #404bbf;
 }
 
-.mail-to,
-.tel-to {
+address * {
   text-decoration: none;
   font-style: normal;
   color: inherit;
 }
 
-.mail-to:hover,
-.mail-to:focus {
-  color: #404bbf;
-}
-
-.tel-to:hover,
-.tel-to:focus {
+.mail-tel:hover,
+.mail-tel:focus {
   color: #404bbf;
 }
 
@@ -111,7 +105,7 @@ ul {
   color: #2e2f42;
 }
 
-.team-ul {
+.team-box {
   background-color: #ffffff;
 }
 
