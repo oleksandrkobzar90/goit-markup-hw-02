@@ -38,12 +38,10 @@ ul {
   color: #404bbf;
 }
 
-address {
+address,
+.mail-tel {
   text-decoration: none;
   font-style: normal;
-}
-
-.mail-tel {
   color: #434455;
 }
 
